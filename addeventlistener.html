@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>addeventlistener</title>
+    <script>
+        function handleclick(){
+            alert('button was clicked');
+        }
+        document.addEventListener('Dom comtent loaded',function(){
+            const element = document.getElementById('mybutton');
+            element.addEventListener('click', handleclick());
+                });
+    </script>
+</head>
+<body>
+    <h1>javascript event handling example</h1>
+    <button id = "mybutton">click me</button>
+</body>
+</html>
